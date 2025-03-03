@@ -2,6 +2,10 @@
 
 ![Chuck Norris Şakaları Ekran Görüntüsü](./chuckss.png)
 
+### Canlı Site // Live
+[SİTE](https://ahmetemreari.github.io/ChuckNorris/)
+
+
 ## 🇹🇷 Türkçe
 
 ### Proje Hakkında
