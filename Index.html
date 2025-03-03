@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuck Norris Şakaları</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CHUCK NORRIS ŞAKALARI</h1>
+            <p class="subtitle">Efsanevi Chuck Norris'in günlük hayatından kesitler</p>
+        </header>
+        
+        <div class="content">
+            <div class="fact-counter" id="fact-counter">0 şaka görüntülendi</div>
+            
+            <div class="image-container fade-in">
+                <img id="chuck-image" src="chucknorris.png" alt="Chuck Norris" class="chuck-image">
+                <div class="image-border"></div>
+            </div>
+            
+            <div class="joke-container fade-in">
+                <p id="joke" class="joke-text">Şaka yükleniyor...</p>
+            </div>
+            
+            <div id="loading" class="loading">
+                <div class="spinner"></div>
+            </div>
+            
+            <div class="controls">
+                <button id="new-joke-btn" class="btn">
+                    <i class="fas fa-random"></i> Başka Bir Şaka
+                </button>
+                <button id="favorite-btn" class="btn" style="background-color: var(--accent); color: var(--dark);">
+                    <i class="fas fa-star"></i> Favorilere Ekle
+                </button>
+            </div>
+        </div>
+        
+        <footer>
+            <p>AHMET EMRE ARI &copy; 2025</p>
+            <div class="social-icons">
+                <a href="https://instagram.com/aemreari"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/ahmetemreari?tab=repositories"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/aemreari/"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <button class="share-btn">
+                <i class="fas fa-share-alt"></i> Paylaş
+            </button>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
